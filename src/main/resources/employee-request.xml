@@ -1,0 +1,12 @@
+<soapenv:Envelope
+        xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+        xmlns:id="http://springsoapapi.com/employee/">
+
+    <soapenv:Header/>
+    <soapenv:Body>
+        <id:getEmployeeRequest>
+            <id:id>1</id:id>
+        </id:getEmployeeRequest>
+    </soapenv:Body>
+
+</soapenv:Envelope>
